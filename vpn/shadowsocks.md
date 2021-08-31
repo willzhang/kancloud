@@ -2,7 +2,7 @@
 
 dockerhub地址
 
-https\://hub.docker.com/r/mritd/shadowsocks 
+<https://hub.docker.com/r/mritd/shadowsocks>
 
 ## python版shadowsocks
 
@@ -116,7 +116,7 @@ sudo ssserver -h
 
 配置文件参数说明
 
-```
+```shell
 Name
 Explanation
 server
@@ -171,7 +171,7 @@ ssserver -c /etc/shadowsocks.json -d restart
 
 编写自动化安装脚本
 
-```
+```bash
 #！/bin/bash
 hostnamectl set-hostname mycentos
 systemctl stop firewalld.service && systemctl disable firewalld.service
@@ -310,21 +310,21 @@ systemctl status shadowsocks
 
 ## 工具测速
 
-3安装测速工具 Speedtest.net是比较广泛的用来测试宽带速度的网站，Speedtest.net的工作原理并不复杂：它在你的浏览器中加载JavaScript代码并自动检测离你最近的Speedtest.net服务器，然后向服务器发送HTTP GET and POST请求来测试上行/下行网速。 
+3安装测速工具 Speedtest.net是比较广泛的用来测试宽带速度的网站，Speedtest.net的工作原理并不复杂：它在你的浏览器中加载JavaScript代码并自动检测离你最近的Speedtest.net服务器，然后向服务器发送HTTP GET and POST请求来测试上行/下行网速。
 
-安装pip speedtest是用python写的，没使用过pip的需要先安装pip， 
+安装pip speedtest是用python写的，没使用过pip的需要先安装pip，
 
 ```
 yum install python-pip –y
 ```
 
-安装speedtest-cli 
+安装speedtest-cli
 
 ```
 pip install speedtest-cli 
 ```
 
-安装完成测试，speedtest-cli命令会查找距离最近的Speedtest.net服务器。并打印出你的下行和上行带宽。 
+安装完成测试，speedtest-cli命令会查找距离最近的Speedtest.net服务器。并打印出你的下行和上行带宽。
 
 ```
 [root@VM_0_12_centos ~]# speedtest-cli 
@@ -339,9 +339,9 @@ Testing upload speed............................................................
 Upload: 74.80 Mbit/s
 ```
 
-使用“–share”参数，会将测试结果上传到Speedtest.net服务器并以图形的方式展示。通过链接地址获得图形报告。 
+使用“–share”参数，会将测试结果上传到Speedtest.net服务器并以图形的方式展示。通过链接地址获得图形报告。
 
-speedtest-cli --share 
+speedtest-cli --share
 
 其他用法 使用speedtest-cli -h获取使用帮助
 
@@ -360,6 +360,4 @@ speedtest-cli --share
 ! See https://adblockplus.org/en/filter-cheatsheet
 ||https://www.gitbook.com/^
 ```
-
-
 

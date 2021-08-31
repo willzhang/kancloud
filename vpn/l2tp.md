@@ -31,4 +31,4 @@ docker run -d \
 
 配置客户端
 
-https\://github.com/hwdsl2/setup-ipsec-vpn/blob/master/docs/clients-zh.md
+<https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/docs/clients-zh.md>

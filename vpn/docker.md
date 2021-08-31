@@ -4,29 +4,29 @@
 
 国外vps服务器推荐：
 
-https\://www\.vultr.com/
+<https://www.vultr.com/>
 
-https\://bandwagonhost.com/
+<https://bandwagonhost.com/>
 
 阿里云或腾讯云轻量服务器：
 
-https\://cloud.tencent.com/product/lighthouse
+<https://cloud.tencent.com/product/lighthouse>
 
-https\://cn.aliyun.com/product/swas
+<https://cn.aliyun.com/product/swas>
 
 ## Docker安装shadowsocks
 
 docker镜像官方地址：
 
-https\://hub.docker.com/r/shadowsocks/shadowsocks-libev
+<https://hub.docker.com/r/shadowsocks/shadowsocks-libev>
 
-https\://github.com/shadowsocks/shadowsocks-libev
+<https://github.com/shadowsocks/shadowsocks-libev>
 
 集成kcptun加速:
 
-https\://hub.docker.com/r/xtaci/kcptun
+<https://hub.docker.com/r/xtaci/kcptun>
 
-https\://github.com/xtaci/kcptun
+<https://github.com/xtaci/kcptun>
 
 安装shadowsocks-libev
 
@@ -115,7 +115,7 @@ docker-compose up -d
 
 下载shadowsocks windows客户端
 
- https\://github.com/shadowsocks/shadowsocks-windows/releases
+<https://github.com/shadowsocks/shadowsocks-windows/releases>
 
 不使用kcptun加速的配置方式：
 
@@ -125,7 +125,7 @@ docker-compose up -d
 
 下载kcptun客户端：
 
-https\://github.com/xtaci/kcptun/releases
+<https://github.com/xtaci/kcptun/releases>
 
 选择kcptun-windows-amd64-20200701.tar.gz下载解压后将client_windows_amd64.exe复制到shadowsocks根目录下：
 
@@ -149,13 +149,11 @@ client_windows_amd64.exe
 
 ![](../images/screenshot\_1625806066805.png)
 
-
-
 ## mritd方式
 
 这里使用dockerhub上的镜像，建议访问该网站参考更多内容：
 
-镜像地址：https\://hub.docker.com/r/mritd/shadowsocks
+镜像地址：<https://hub.docker.com/r/mritd/shadowsocks>
 
 拉取镜像并运行：
 
@@ -223,13 +221,8 @@ ssserver -c /etc/shadowsocks.json -d status
 
 snap安装
 
-https\://github.com/shadowsocks/shadowsocks-libev#build-from-source-with-centos
-
-
+<https://github.com/shadowsocks/shadowsocks-libev#build-from-source-with-centos>
 
 shadowsocksR客户端
 
-https\://github.com/shadowsocksrr/shadowsocksr-csharp
-
-
-
+<https://github.com/shadowsocksrr/shadowsocksr-csharp>

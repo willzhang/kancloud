@@ -1,4 +1,23 @@
 {
-    "theme": "classic",
-    "title": "willblog"
+    "theme": "maxime",
+    "title": "willblog",
+    "root": "\/",
+    "plugins": [
+        "lunrjs",
+        "highlight"
+    ],
+    "pluginsConfig": {
+        "theme-classic": {
+            "navs": [
+                {
+                    "title": "test",
+                    "url": "test.com"
+                },
+                {
+                    "title": "tes1",
+                    "url": "test1.com"
+                }
+            ]
+        }
+    }
 }

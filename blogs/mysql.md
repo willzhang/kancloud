@@ -1,0 +1,2 @@
+## linux安装mysql
+

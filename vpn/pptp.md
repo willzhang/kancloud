@@ -2,7 +2,7 @@
 
 部署pptp
 
-https\://hub.docker.com/r/mobtitude/vpn-pptp
+<https://hub.docker.com/r/mobtitude/vpn-pptp>
 
 创建配置文件
 

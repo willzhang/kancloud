@@ -1,10 +1,10 @@
 ## v2ray简介
 
-官方网站：https\://www\.v2ray.com/
+官方网站：<https://www.v2ray.com/>
 
-github地址：https\://github.com/v2ray/v2ray-core
+github地址：<https://github.com/v2ray/v2ray-core>
 
-android客户端：https\://github.com/2dust/v2rayNG
+android客户端：<https://github.com/2dust/v2rayNG>
 
 ## 服务端安装
 
@@ -49,11 +49,11 @@ docker run -itd --name v2ray \
 
 下载客户端（v2rayN-Core.zip）：
 
-https\://github.com/2dust/v2rayN/releases
+<https://github.com/2dust/v2rayN/releases>
 
 或单独下载core文件，对v2rayN-Core.zip进行解压，然后将V2RayN.exe复制到v2ray-windows-64.zip解压后的目录：
 
-https\://github.com/v2ray/v2ray-core/releases
+<https://github.com/v2ray/v2ray-core/releases>
 
 ![](../images/screenshot\_1625805591363.png)
 

@@ -68,7 +68,7 @@ You can create sub-lists by indenting items that are under a certain parent.
 
 renders as
 
-![Nesting navbar](_images/nested-navbar.png 'Nesting navbar')
+![Nesting navbar](\_images/nested-navbar.png "Nesting navbar")
 
 ## Combining custom navbars with the emoji plugin
 
@@ -94,3 +94,4 @@ you could, for example, use flag emojis in your custom navbar Markdown file:
 * [:us:, :uk:](/)
 * [:cn:](/zh-cn/)
 ```
+
