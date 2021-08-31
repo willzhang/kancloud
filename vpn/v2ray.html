@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>v2ray - willblog</title>
+    
+    
+        <script src="../asset/theme.js"></script>
+    
+</head>
+<body>
+<div id="root"></div>
+<script type="application/payload+json">
+{"book":{"id":"q5wy4m"},"summary":[{"title":"","articles":[{"title":"前言","ref":"README.md","path":"README.html","children":[]},{"title":"VPN教程","ref":"vpn\/README.md","path":"vpn\/README.html","children":[{"title":"trojan","ref":"vpn\/trojan.md","path":"vpn\/trojan.html","children":[]},{"title":"v2ray","ref":"vpn\/v2ray.md","path":"vpn\/v2ray.html","children":[]},{"title":"pptp","ref":"vpn\/pptp.md","path":"vpn\/pptp.html","children":[]},{"title":"l2tp","ref":"vpn\/l2tp.md","path":"vpn\/l2tp.html","children":[]},{"title":"fpr","ref":"fpr.md","path":"fpr.html","children":[]},{"title":"kcptun","ref":"vpn\/kcptun.md","path":"vpn\/kcptun.html","children":[]},{"title":"proxifier","ref":"vpn\/proxifier.md","path":"vpn\/proxifier.html","children":[]},{"title":"goproxy","ref":"vpn\/goproxy.md","path":"vpn\/goproxy.html","children":[]},{"title":"docker安装ssr","ref":"vpn\/docker.md","path":"vpn\/docker.html","children":[]},{"title":"shadowsocks","ref":"vpn\/shadowsocks.md","path":"vpn\/shadowsocks.html","children":[]},{"title":"clash","ref":"vpn\/clash.md","path":"vpn\/clash.html","children":[]},{"title":"openvpn","ref":"vpn\/openvpn.md","path":"vpn\/openvpn.html","children":[]},{"title":"vpn代理","ref":"vpn\/proxy.md","path":"vpn\/proxy.html","children":[]}]},{"title":"常用工具","ref":"tools\/README.md","path":"tools\/README.html","children":[{"title":"natapp","ref":"tools\/natapp.md","path":"tools\/natapp.html","children":[]},{"title":"brook","ref":"tools\/brook.md","path":"tools\/brook.html","children":[]},{"title":"ngrok","ref":"tools\/ngrok.md","path":"tools\/ngrok.html","children":[]},{"title":" go-socks5-proxy","ref":"tools\/ go-socks5-proxy.md","path":"tools\/-go-socks5-proxy.html","children":[]},{"title":"proxychains-ng","ref":"tools\/proxychains-ng.md","path":"tools\/proxychains-ng.html","children":[]}]},{"title":"博客文章","ref":"blogs\/README.md","path":"blogs\/README.html","children":[{"title":"linux安装mysql","ref":"blogs\/mysql.md","path":"blogs\/mysql.html","children":[]},{"title":"linux安装docker","ref":"blogs\/docker.md","path":"blogs\/docker.html","children":[]},{"title":"linux安装openjdk","ref":"blogs\/openjdk.md","path":"blogs\/openjdk.html","children":[]},{"title":"linux安装kubernetes","ref":"blogs\/kubernetes.md","path":"blogs\/kubernetes.html","children":[]}]}]}],"config":{"theme":"maxime","title":"willblog","root":"\/","plugins":["lunrjs","highlight"],"pluginsConfig":{"theme-classic":{"navs":[{"title":"test","url":"test.com"},{"title":"tes1","url":"test1.com"}]}}},"file":{"path":"vpn\/v2ray.html","content":"## v2ray简介\n\n官方网站：<https:\/\/www.v2ray.com\/>\n\ngithub地址：<https:\/\/github.com\/v2ray\/v2ray-core>\n\nandroid客户端：<https:\/\/github.com\/2dust\/v2rayNG>\n\n## 服务端安装\n\n安装docker\n\n```\ncurl -sS https:\/\/get.docker.com | sh && systemctl enable --now docker\n```\n\n创建配置文件\n\n```\nmkdir \/etc\/v2ray\ncat > \/etc\/v2ray\/config.json << EOF\n{\n  \"inbounds\": [{\n    \"port\": 8888, \/\/ 服务器监听端口，必须和客户端一致\n    \"protocol\": \"vmess\",\n    \"settings\": {\n      \"clients\": [{ \"id\": \"b831381d-6324-4d53-ad4f-8cda48b30811\" }]\n    }\n  }],\n  \"outbounds\": [{\n    \"protocol\": \"freedom\",\n    \"settings\": {}\n  }]\n}\nEOF\n```\n\n运行docker容器\n\n```\ndocker run -itd --name v2ray \\\n  --restart always \\\n  -v \/etc\/v2ray:\/etc\/v2ray \\\n  -p 8888:8888 v2ray\/official \\\n  v2ray -config=\/etc\/v2ray\/config.json\n```\n\n## 客户端配置\n\n下载客户端（v2rayN-Core.zip）：\n\n<https:\/\/github.com\/2dust\/v2rayN\/releases>\n\n或单独下载core文件，对v2rayN-Core.zip进行解压，然后将V2RayN.exe复制到v2ray-windows-64.zip解压后的目录：\n\n<https:\/\/github.com\/v2ray\/v2ray-core\/releases>\n\n![](..\/images\/screenshot\\_1625805591363.png)\n\n图2\n\n![](..\/images\/screenshot\\_1625805601696.png)\n\n编辑配置\n\nUUID 与服务端配置一致即可\n\n![](..\/images\/screenshot\\_1625805618404.png)\n\n保存后点击右下角图标，勾选以下2项：\n\n![](..\/images\/screenshot\\_1625805640880.png)\n","meta":{"mtime":""}},"options":{}}
+</script>
+
+<script src="https://jsdelivr.topthink.com/npm/lodash@4.17/lodash.min.js"></script>
+
+<script src="https://jsdelivr.topthink.com/npm/react@17/umd/react.production.min.js"></script>
+
+<script src="https://jsdelivr.topthink.com/npm/react-dom@17/umd/react-dom.production.min.js"></script>
+
+<script src="../asset/index.js"></script>
+
+<script src="../asset/plugins/highlight/index.js"></script>
+
+<script src="../asset/plugins/lunrjs/index.js"></script>
+
+<script type="text/javascript">
+    TopWrite.bootstrap();
+</script>
+</body>
+</html>
