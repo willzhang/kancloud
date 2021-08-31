@@ -110,8 +110,9 @@ rules:
     - 'DOMAIN,safebrowsing.urlsec.qq.com,DIRECT'
 ......
 ```
+
 建议从clash for windows客户端导出现有config.yaml配置文件
-![](../images/screenshot_1630129721260.png)
+![](../images/screenshot\_1630129721260.png)
 
 启动clash进程
 

@@ -19,8 +19,3 @@
     * [ngrok](tools/ngrok.md)
     * [ go-socks5-proxy](tools/%20go-socks5-proxy.md)
     * [proxychains-ng](tools/proxychains-ng.md)
-* [博客文章](blogs/README.md)
-    * [linux安装mysql](blogs/mysql.md)
-    * [linux安装docker](blogs/docker.md)
-    * [linux安装openjdk](blogs/openjdk.md)
-    * [linux安装kubernetes](blogs/kubernetes.md)
