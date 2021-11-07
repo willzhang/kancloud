@@ -17,7 +17,7 @@ EOF
 
 运行容器
 
-```
+```bash
 docker run -d --name pptpserver \
   --restart always \
   --privileged \

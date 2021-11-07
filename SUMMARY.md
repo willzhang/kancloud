@@ -13,6 +13,7 @@
     * [clash](vpn/clash.md)
     * [openvpn](vpn/openvpn.md)
     * [vpn代理](vpn/proxy.md)
+    * [n2n](n2n.md)
 * [常用工具](tools/README.md)
     * [natapp](tools/natapp.md)
     * [brook](tools/brook.md)
