@@ -27,7 +27,7 @@ Clash for Windows 是运行在 Windows 上的一图形化 Clash 分支。通过 
 
 返回到「General」部分，将「System Proxy」的开关更改为绿色状态即可开始使用。此外，建议将「Start with Windows」也更改为绿色来让 Clash for Windows 在开机时自动启动。
 
-![](../images/screenshot\_1626065945903.png)
+![](../images/screenshot_1626065945903.png)
 
 ## 配置参数
 
@@ -112,7 +112,7 @@ rules:
 ```
 
 建议从clash for windows客户端导出现有config.yaml配置文件
-![](../images/screenshot\_1630129721260.png)
+![](../images/screenshot_1630129721260.png)
 
 启动clash进程
 
@@ -221,3 +221,4 @@ docker run -d --name clash-client \
   dreamacro/clash
 ```
 
+^

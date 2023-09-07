@@ -24,8 +24,8 @@ CLIENTNAME="us01.vpn.example.com"
 
 参数说明：
 
-* $OVPN_DATA，它用于数据卷容器。建议使用ovpn-data-前缀与参考systemd服务无缝操作。
-* $VPN_SERVERNAME，该值应该是域名或 IP 地址。
+* $OVPN\_DATA，它用于数据卷容器。建议使用ovpn-data-前缀与参考systemd服务无缝操作。
+* $VPN\_SERVERNAME，该值应该是域名或 IP 地址。
 * $CLIENTNAME，它将用作客户端定义。你可以用一些令人难忘的东西来命名它，这样你就可以注意到你在哪里连接。
 
 创建`$OVPN_DATA`卷
@@ -75,3 +75,4 @@ docker run -v $OVPN_DATA:/etc/openvpn \
 1. 启动客户端，右键，选择 import file, 导入 ovpn 文件，文件请 联系管理员发给你
 2. 右键 connect,如果弹出框提示输入密码，输入默认密码 123456 ，等待连接成功即可
 
+^
